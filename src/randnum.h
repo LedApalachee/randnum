@@ -167,18 +167,18 @@ typedef struct randfloat
 
 
 
-int8_t get_randint8_t(randint8_t n);
-int16_t get_randint16_t(randint16_t n);
-int32_t get_randint32_t(randint32_t n);
-int64_t get_randint64_t(randint64_t n);
+int8_t get_randint8_t(randint8_t* n);
+int16_t get_randint16_t(randint16_t* n);
+int32_t get_randint32_t(randint32_t* n);
+int64_t get_randint64_t(randint64_t* n);
 
-uint8_t get_randuint8_t(randuint8_t n);
-uint16_t get_randuint16_t(randuint16_t n);
-uint32_t get_randuint32_t(randuint32_t n);
-uint64_t get_randuint64_t(randuint64_t n);
+uint8_t get_randuint8_t(randuint8_t* n);
+uint16_t get_randuint16_t(randuint16_t* n);
+uint32_t get_randuint32_t(randuint32_t* n);
+uint64_t get_randuint64_t(randuint64_t* n);
 
-double get_randdouble(randdouble n);
-float get_randfloat(randfloat n);
+double get_randdouble(randdouble* n);
+float get_randfloat(randfloat* n);
 
 
 #endif
